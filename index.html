@@ -122,13 +122,15 @@
                     <div class="contactForm">
                         <form id="contactForm">
                             <div class="formGroup">
-                                <input type="text" id="name" placeholder="Your Name" required>
+                                <input type="text" id="name" name="name" autocomplete="name" placeholder="Your Name"
+                                    required>
                             </div>
                             <div class="formGroup">
-                                <input type="email" id="email" placeholder="Your Email" required>
+                                <input type="email" id="email" name="email" autocomplete="email"
+                                    placeholder="Your Email" required>
                             </div>
                             <div class="formGroup">
-                                <textarea id="message" placeholder="Your Message" required></textarea>
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
                             </div>
                             <button type="submit" class="submitBtn">Send Message</button>
                         </form>
